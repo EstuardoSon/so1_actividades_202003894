@@ -1,12 +1,12 @@
 Estuardo Gabriel Son Mux
 202003894
 
-Tipos de Kernel
+# Tipos de Kernel
 * Kernel Monolítico: Es un kernel de gran tamaño para cualquier tipo de tarea. Es el único responsable de la gestión de memoria, procesos, de la comunicación entre procesos y proporcionar funciones de soporte de drivers y hardware. 
 * Microkernel: Esta diseñado para tener un tamaño reducido para que en casos de fallo no paralice todo el sistema operativo. Está dividido en varios modulos para que pueda asumir las funcioens de un módulo de mayor tamaño.
 * Kernel híbrido: Consiste la combinación de kernel monolítico y el microkernel. En este caso, el kernel de mayor tamaño se hace más compacto y modulable. Otras partes del kernel puden cargarse dinámicamente.
 
-Diferencias entre Kernel Mode y User Mode
+# Diferencias entre Kernel Mode y User Mode 
 El modo usuario es un modo restringido, que las aplicaciones de programas ejecutan y comienzan.
 El modo kernel es un modo privilegiado, que la computadora accede cuando la computadora accede a recursos del hardware.
 - Modos
